@@ -39,7 +39,7 @@ int main() {
 
     if(termCode >= 1 && termCode <= 3) {
         totalINTEREST = investmentAmount * aprRate ;
-        printf("Annual interest rate : %.2f\n", totalINTEREST) ;
+        printf("Total Interest Earned : %.2f\n", totalINTEREST) ;
     }
         else {
             printf("Invalid Term Code\n") ;
