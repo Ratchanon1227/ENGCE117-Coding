@@ -29,6 +29,6 @@ int main() {
         return 0;
     }
 
-    printf("%.2f\n", totalBill);
+    printf("%.2f Baht\n", totalBill);
     return 0;
 }
