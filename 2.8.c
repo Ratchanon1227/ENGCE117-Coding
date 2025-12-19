@@ -26,13 +26,16 @@ int main() {
         if (scorePass && attendancePass) {
             printf("PASS\n");
             passCount++;
-        } else {
+        } 
+            else {
             printf("FAIL - ");
             if (!scorePass && !attendancePass) {
                 printf("Both Score and Attendance\n");
-            } else if (!scorePass) {
+            } 
+                else if (!scorePass) {
                 printf("Low Score\n");
-            } else {
+            } 
+                else {
                 printf("Low Attendance (%.2f%%)\n", attendancePercent);
             }
             failCount++;
