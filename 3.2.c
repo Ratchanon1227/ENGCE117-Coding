@@ -8,13 +8,12 @@ struct Student {
 
 int main() {
     int N, i ;
-
+    struct Student students[N] ;
+    
     printf("Enter Your Number : ") ;
     if (scanf("%d", &N) != 1) {
         return 1 ;
     }
-
-    struct Student students[N] ;
 
     for(i = 0; i < N; i++) {
         if(scanf("%d %f %s", &students[i].studentID, &students[i].score, students[i].name) != 3) {
