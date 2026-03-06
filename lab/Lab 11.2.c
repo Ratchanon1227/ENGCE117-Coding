@@ -5,8 +5,7 @@ void merge(int *u, int m, int *v, int n, int *t) ;
  
 int main() {
     int data[7] = { 4, 6, 1, 2, 5, 1, 8 } ;
-    int n = 7 
-    ;
+    int n = 7 ;
     mergesort(data, n) ;
     for (int i = 0; i < n; i++) {
         printf("%d ", data[i]) ;
@@ -20,7 +19,6 @@ void mergesort(int t[], int k) {
         int m = k / 2 ;
         int n = k - m ;
         int u[m], v[n] ;
-        
         for (int i = 0; i < m; i++) u[i] = t[i] ;
         for (int i = 0; i < n; i++) v[i] = t[m + i] ;
         mergesort(u, m) ;
