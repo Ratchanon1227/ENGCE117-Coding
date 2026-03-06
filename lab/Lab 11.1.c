@@ -9,7 +9,8 @@ int main() {
     
     if (pos != -1) {
         printf("Found %d at %d\n", find, pos) ;
-    } else {
+    } 
+        else {
         printf("Not Found\n") ;
     }
     
