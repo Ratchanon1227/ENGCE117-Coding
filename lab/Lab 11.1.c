@@ -25,9 +25,11 @@ int BinSearch(int data[], int n, int find) {
         
         if (data[mid] == find) {
             return mid ;
-        } else if (data[mid] < find) {
+        } 
+            else if (data[mid] < find) {
             low = mid + 1 ;
-        } else {
+        } 
+            else {
             high = mid - 1 ;
         }
     }
