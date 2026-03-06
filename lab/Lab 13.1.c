@@ -16,7 +16,7 @@ int *KnapsackDP(int *w, int *v, int n, int wx) {
         }
     }
 
-    int *x = (int *)calloc(n, sizeof(int));
+    int *x = (int *)calloc(n, sizeof(int)) ;
     int res = K[n][wx] ;
     int j = wx ;
     for (int i = n; i > 0 && res > 0; i--) {
